@@ -1,0 +1,47 @@
+p {
+	color: darkgreen;
+	font-family: Courier, serif;
+	font-size: 24 px;
+	float: right;
+}
+
+img {
+	padding: 20px;
+	float: left;
+}
+
+h1 {
+	font-family: cursive;
+	color: lawngreen;
+}
+table {
+	border: 2px solid blue;
+	float: right;
+}
+
+a {
+	text-decoration: none;
+	color: #4A4943;
+}
+
+/*div is for the buttons. Have fun!*/
+div {
+	height: 50px;
+	width: 100px;
+	background-color: CCFFAA;
+	border-radius: 100%;
+	border: 2px solid blue;
+	margin: auto;
+	text-align: center;
+}
+
+body {
+	background-color: #C6E2FF;
+}
+
+/*make this a button that's div class="button" and adjust the margins*/
+.button {
+	margin: -20px 50px 10px 5px;
+	padding: 10px;
+}
+/*I'm a comment!*/
