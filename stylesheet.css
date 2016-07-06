@@ -1,47 +1,59 @@
-p {
-	color: darkgreen;
-	font-family: Courier, serif;
-	font-size: 24 px;
-	float: right;
-}
-
-img {
-	padding: 20px;
-	float: left;
+* {
+	text-decoration: none;
+	font-family: Comic, Helvetica, sans-serif;
 }
 
 h1 {
-	font-family: cursive;
-	color: lawngreen;
-}
-table {
-	border: 2px solid blue;
-	float: right;
-}
-
-a {
-	text-decoration: none;
-	color: #4A4943;
-}
-
-/*div is for the buttons. Have fun!*/
-div {
-	height: 50px;
-	width: 100px;
-	background-color: CCFFAA;
-	border-radius: 100%;
-	border: 2px solid blue;
-	margin: auto;
+	color: #2e69a3;
 	text-align: center;
 }
 
-body {
-	background-color: #C6E2FF;
+header {
+	text-align: center;
 }
 
-/*make this a button that's div class="button" and adjust the margins*/
-.button {
-	margin: -20px 50px 10px 5px;
+.main {
+	background-color: #2e69a3;
+	margin: 50px;
+	border-radius: 5px;
 	padding: 10px;
 }
-/*I'm a comment!*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+background:  url('images/blue_farm.jpg') no-repeat center left;
+ background-size: 100% 100%;
+width: 100%;
+height: 100%;
+height: auto !important;
+min-height:100%;
+}
+
+/* navigation */
+ul#navBar {
+    margin: auto;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+ul#navBar li {
+	font: 1.5em;
+    display: inline;
+    margin-right: 25px;
+}
+
+ul#navBar li a {
+	color: white;
+    text-decoration: none;
+}
+
+ul#navBar li a:hover {
+	color: blue;
+}
+
+/*   end navigation */ 
