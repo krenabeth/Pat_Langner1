@@ -4,7 +4,9 @@
 }
 
 h1 {
-	color: #2e69a3;
+	color: white;
+	font-size: 400%;
+	font-family: cursive;
 	text-align: center;
 }
 
@@ -13,10 +15,13 @@ header {
 }
 
 .main {
-	background-color: #2e69a3;
+	background-color: white;
 	margin: 50px;
 	border-radius: 5px;
-	padding: 10px;
+	padding: 15px;
+	box-shadow: inset 5px 5px 5px #36367C;
+	width: 85%;
+	margin: auto;
 }
 
 html, body {
@@ -26,13 +31,27 @@ html, body {
 }
 
 body {
-background:  url('images/blue_farm.jpg') no-repeat center left;
- background-size: 100% 100%;
-width: 100%;
-height: 100%;
-height: auto !important;
-min-height:100%;
+	background:  url('images/blue.jpg') no-repeat center left;
+ 	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+	height: auto !important;
+	min-height:100%;
 }
+/*gallery*/
+img.square {
+	width: 300px;
+	height: 300px;
+}
+img.portrait {
+	width: 150px;
+	height: 300px;
+}
+img.landscape {
+	width: 350px;
+	height: 150px;
+}
+/*gallery*/
 
 /* navigation */
 ul#navBar {
@@ -40,20 +59,17 @@ ul#navBar {
     padding: 5px;
     margin-bottom: 10px;
 }
-
 ul#navBar li {
-	font: 1.5em;
+	font: 4em;
     display: inline;
-    margin-right: 25px;
+    margin-right: 45px;
+    margin-left: 10px;
 }
-
 ul#navBar li a {
 	color: white;
     text-decoration: none;
 }
-
 ul#navBar li a:hover {
 	color: blue;
 }
-
 /*   end navigation */ 
