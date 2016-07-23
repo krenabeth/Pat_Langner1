@@ -8,6 +8,7 @@ h1 {
 	font-size: 400%;
 	font-family: cursive;
 	text-align: center;
+	text-shadow: 1px 1px 2px black; 
 }
 
 header {
@@ -31,39 +32,26 @@ html, body {
 }
 
 body {
-	background:  url('images/blue.jpg') no-repeat center left;
+	background:  url('../images/blue.jpg') no-repeat center left;
  	background-size: 100% 100%;
 	width: 100%;
 	height: 100%;
 	height: auto !important;
 	min-height:100%;
 }
-/*gallery*/
-img.square {
-	width: 300px;
-	height: 300px;
-}
-img.portrait {
-	width: 150px;
-	height: 300px;
-}
-img.landscape {
-	width: 350px;
-	height: 150px;
-}
-/*gallery*/
 
 /* navigation */
 ul#navBar {
-    margin: auto;
-    padding: 5px;
-    margin-bottom: 10px;
+    float: left;
+    margin-left: 5px;
+    margin-top: -25px;
 }
 ul#navBar li {
-	font: 4em;
-    display: inline;
-    margin-right: 45px;
-    margin-left: 10px;
+	font: 5em;
+	text-align: left;
+	padding-bottom: 15px;
+	list-style: none;
+	text-shadow: 1px 1px 2px black; 
 }
 ul#navBar li a {
 	color: white;
