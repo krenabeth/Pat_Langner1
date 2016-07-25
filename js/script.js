@@ -1,2 +1,1 @@
-var app = angular.module('routingModule', ['ngRoute']);
-
+var app = angular.module('routingModule');
