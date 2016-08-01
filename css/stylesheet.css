@@ -1,28 +1,16 @@
 * {
 	text-decoration: none;
-	font-family: Comic, Helvetica, sans-serif;
+	font-family: Helvetica, sans-serif;
+	font-size: 110%;
 }
 
 h1 {
 	color: white;
-	font-size: 400%;
+	font-size: 4em;
 	font-family: cursive;
-	text-align: center;
 	text-shadow: 1px 1px 2px black; 
-}
-
-header {
+	margin-top: -10px;
 	text-align: center;
-}
-
-.main {
-	background-color: white;
-	margin: 50px;
-	border-radius: 5px;
-	padding: 15px;
-	/*box-shadow: inset 5px 5px 5px #36367C;*/
-	width: 75%;
-	margin: auto;
 }
 
 html, body {
@@ -40,18 +28,34 @@ body {
 	min-height:100%;
 }
 
-img.left {
+.main {
+	background-color: white;
+	margin: 50px;
+	border-radius: 5px;
+	padding: 15px;
+	/*box-shadow: inset 5px 5px 5px #36367C;*/
+	width: 70%;
+	margin: auto;
+	margin-top: -30px;
+}
+
+img {
+	width: 100px;
+}
+
+img#left {
 	float: left;
+	margin-right: 10px;
+	width: 40%;
 }
 
 /* navigation */
 ul#navBar {
     float: left;
     margin-left: 5px;
-    margin-top: -25px;
+    margin-top: -30px;
 }
 ul#navBar li {
-	font: 5em;
 	text-align: left;
 	padding-bottom: 18px;
 	list-style: none;
@@ -64,4 +68,11 @@ ul#navBar li a {
 ul#navBar li a:hover {
 	color: blue;
 }
-/*   end navigation */ 
+/*   end navigation */
+
+footer {
+	color: white;
+	position: absolute;
+    bottom: 0;
+    margin: auto;
+} 
