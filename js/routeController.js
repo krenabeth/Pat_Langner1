@@ -4,7 +4,7 @@ app.config(function($routeProvider) {
 	$routeProvider
 	.when('/',
 	{
-		templateUrl: '/',
+		templateUrl: 'html/main.html ',
 		controller: 'routeCtrl'	
 	})
 	.when ('/html/shows',
@@ -27,5 +27,5 @@ app.config(function($routeProvider) {
 		templateUrl: 'html/gallery.html',
 		controller: 'routeCtrl'   
 	})
-	.otherwise({ redirectTo: '/'})
+	.otherwise({ redirectTo: 'html/main.html'})
 });
