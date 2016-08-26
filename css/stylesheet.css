@@ -5,7 +5,7 @@
 }
 
 h1 {
-	color: white;
+	color: #e8f1f4;
 	font-size: 4em;
 	font-family: 'La Belle Aurore', cursive;
 	text-shadow: 1px 1px 2px black; 
@@ -28,7 +28,7 @@ body {
 }
 
 .main {
-	background-color: white;
+	background-color: #d3eef6;
 	margin: 50px;
 	border-radius: 5px;
 	padding: 15px;
@@ -54,6 +54,11 @@ img#left {
 	width: 40%;
 }
 
+.showPic {
+	margin: 5px;
+	float: right;
+}
+
 /* navigation */
 ul#navBar {
     float: left;
@@ -67,16 +72,47 @@ ul#navBar li {
 	text-shadow: 1px 1px 2px black; 
 }
 ul#navBar li a {
-	color: white;
+	color: #e8f1f4;
     text-decoration: none;
 }
 ul#navBar li a:hover {
-	color: blue;
+	color: #6B2F0E;
+}
+
+.active {
+	border-bottom: 3px solid white;
 }
 /*   end navigation */
 
+form {
+	padding: 3px;
+}
+
+input {
+	border: 1px solid #d3eef6;
+	margin: 5px;
+}
+
+#button {
+	background-color: #0f42cc;
+	color: #e8f1f4;
+	font-size: 0.75em;
+	border-radius: 15px;
+	padding: 5px 10px;
+	margin: 2px;
+}
+
+#button:hover{
+	opacity: 0.8;
+}
+
+#comments {
+    width: 500px;
+    height: 150px;
+}
+
 footer {
-	color: white;
+	color: #e8f1f4;
 	position: absolute;
     bottom: 0;
     margin-left: 25px;
