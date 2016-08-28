@@ -74,11 +74,12 @@ ul#navBar li a {
     text-decoration: none;
 }
 ul#navBar li a:hover {
-	color: #6B2F0E;
+	border-bottom: 3px solid #e8f1f4;
+
 }
 
 .active {
-	border-bottom: 3px solid white;
+	background-color: green;
 }
 /*   end navigation */
 

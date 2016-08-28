@@ -13,11 +13,11 @@
 		<h1>Pat Langner</h1>
 			
 			<ul id="navBar">
-				<li><a href="#html/main">Home</a></li>
-				<li><a href="#html/gallery">Gallery</a></li>
-				<li><a href="#html/about">About</a></li>
-				<li><a href="#html/shows">Shows</a></li>
-				<li><a href="#html/shop">Order</a></li>
+				<li ng-class="{ active: isActive('/')}"><a href="#html/main">Home</a></li>
+				<li ng-class="{ active: isActive('/html/gallery')}"><a href="#html/gallery">Gallery</a></li>
+				<li ng-class="{ active: isActive('/html/about')}"><a href="#html/about">About</a></li>
+				<li ng-class="{ active: isActive('/html/shows')}"><a href="#html/shows">Shows</a></li>
+				<li ng-class="{ active: isActive('/html/shop')}"><a href="#html/shop">Order</a></li>
 			</ul>
 
 
@@ -29,7 +29,7 @@
 		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 		<!-- for lightbox -->
 		<script src="js/lightbox.min.js"></script>
-		<script src="js/script.js"></script>
-		<script src="js/routeController.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/routecontroller.js"></script>
 	</body>
 </html>
